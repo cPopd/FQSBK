@@ -1,0 +1,271 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none",
+					/* 隐藏滚动条 */
+					"titleNView": { /* 导航栏设置*/
+						"searchInput": { /* 导航栏 搜索框设置 */
+							"align": "center",
+							"autoFocus": false,
+							"borderRadius": "8rpx",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC",
+							"disabled": true,
+							"backgroundColor": "#F7F7F7"
+						},
+						"buttons": [{
+								"color": "#FF9916",
+								"colorPressed": "#BBBBBB",
+								"float": "left",
+								"fontSize": "44rpx",
+								"fontSrc": "/static/font/icon.ttf",
+								"text": "\ue609"
+							},
+							{
+								"color": "#000000",
+								"colorPressed": "#BBBBBB",
+								"float": "right",
+								"fontSize": "44rpx",
+								"fontSrc": "/static/font/icon.ttf",
+								"text": "\ue653"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/paper/paper",
+			"style": {
+				"navigationBarTitleText": "小纸条",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"color": "#000000",
+								"colorPressed": "#BBBBBB",
+								"float": "left",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/icon.ttf",
+								"text": "\ue845"
+							},
+							{
+								"color": "#000000",
+								"colorPressed": "#BBBBBB",
+								"float": "right",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/icon.ttf",
+								"text": "\ue684"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {}
+		}, {
+			"path": "components/index-list/index-list",
+			"style": {}
+		}, {
+			"path": "components/index-list/swipe-tab",
+			"style": {}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"autoBackButton": false,
+						"searchInput": {
+							"align": "center",
+							"autoFocus": false,
+							"borderRadius": "8rpx",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC",
+							"disabled": false,
+							"backgroundColor": "#F7F7F7"
+						},
+						"buttons": [{
+							"color": "#000000",
+							"colorPressed": "#BBBBBB",
+							"float": "right",
+							"fontSize": "32rpx",
+							"text": "取消"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/add-input/add-input",
+			"style": {
+				"app-plus": {
+					//禁止原生导航
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "components/new-tab/top-nav",
+			"style": {}
+		}, {
+			"path": "components/new-tab/top-list",
+			"style": {}
+		}, {
+			"path": "pages/topic-nav/topic-nav",
+			"style": {
+				"navigationBarTitleText": "话题分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/topic-detail/topic-detail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"scrollIndicator": "none", //隐藏滚动条
+					"titleNView": {
+						"type": "transparent", //导航渐变
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "components/topic/topic-detail",
+			"style": {}
+		}, {
+			"path": "components/uni-badge/uni-badge",
+			"style": {}
+		}, {
+			"path": "components/papers/papers-list",
+			"style": {}
+		}, {
+			"path": "components/papers/paper-left-popup",
+			"style": {}
+		}
+
+		, {
+			"path": "pages/user-list/user-list",
+			"style": {
+				"app-plus": {
+					"animationType": "slide-in-left",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"autoBackButton": false,
+						"searchInput": {
+							"align": "center",
+							"autoFocus": false,
+							"borderRadius": "8rpx",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC",
+							"disabled": false,
+							"backgroundColor": "#F7F7F7"
+						},
+						"buttons": [{
+							"color": "#000000",
+							"colorPressed": "#BBBBBB",
+							"float": "right",
+							"fontSize": "32rpx",
+							"text": "取消"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/config",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "components/configList/configList",
+			"style": {}
+		}, {
+			"path": "pages/home/guanyu",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		}, {
+			"path": "pages/home/yijianfankui",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}, {
+			"path": "pages/home/xiugaimima",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/home/bangding",
+			"style": {
+				"navigationBarTitleText": "绑定邮箱"
+			}
+		}, {
+			"path": "pages/home/update",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/usermin/usermin",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": false
+				}
+
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "二狗不叫二狗",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#B5B5B5",
+		"selectedColor": "#FEE42B",
+		"borderStyle": "black",
+		"backgroundColor": "fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "糗事",
+				"iconPath": "static/tabar/zhuyeed.png",
+				"selectedIconPath": "static/tabar/zhuye.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "动态",
+				"iconPath": "static/tabar/dongtai_1ed.png",
+				"selectedIconPath": "static/tabar/dongtai_1.png"
+			},
+			{
+				"pagePath": "pages/paper/paper",
+				"text": "小纸条",
+				"iconPath": "static/tabar/dongtaied.png",
+				"selectedIconPath": "static/tabar/dongtai.png"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"text": "我的",
+				"iconPath": "static/tabar/wodeed.png",
+				"selectedIconPath": "static/tabar/wode.png"
+			}
+		]
+	}
+}

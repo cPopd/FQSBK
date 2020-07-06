@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "小纸条",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "papers-list": "/components/papers/papers-list",
+    "loadmore": "/components/common/load-more",
+    "papers-left-popup": "/components/papers/paper-left-popup"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/paper/paper",
+    "pages/home/home",
+    "components/index-list/index-list",
+    "components/index-list/swipe-tab",
+    "pages/search/search",
+    "pages/add-input/add-input",
+    "components/new-tab/top-nav",
+    "components/new-tab/top-list",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail",
+    "components/topic/topic-detail",
+    "components/uni-badge/uni-badge",
+    "components/papers/papers-list",
+    "components/papers/paper-left-popup",
+    "pages/user-list/user-list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "二狗不叫二狗",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#FEE42B",
+    "borderStyle": "black",
+    "backgroundColor": "fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "糗事",
+        "iconPath": "static/tabar/zhuyeed.png",
+        "selectedIconPath": "static/tabar/zhuye.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "动态",
+        "iconPath": "static/tabar/dongtai_1ed.png",
+        "selectedIconPath": "static/tabar/dongtai_1.png"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "text": "小纸条",
+        "iconPath": "static/tabar/dongtaied.png",
+        "selectedIconPath": "static/tabar/dongtai.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/tabar/wodeed.png",
+        "selectedIconPath": "static/tabar/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
